@@ -157,7 +157,7 @@ SLIDES.forEach((s) => {
 kids.push(new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, borders: BORDES, rows: filas }));
 kids.push(p("Sobre el ritmo — léelo antes de ensayar", { bold: true, before: 220, after: 80, color: NARANJA }));
 kids.push(p(
-  `Este guion tiene ${W_TOTAL.toLocaleString("es")} palabras habladas. El reparto de tiempos de la tabla de arriba supone un ritmo de ${RITMO} palabras por minuto, que es un ritmo ágil: el de alguien que lleva el tema ensayado y no se detiene. Si lees con pausas largas te irás a 34 o 35 minutos.`,
+  `Este guion tiene ${W_TOTAL.toLocaleString("es")} palabras habladas. El reparto de tiempos de la tabla de arriba supone un ritmo de ${RITMO} palabras por minuto, que es un ritmo ágil: el de alguien que lleva el tema ensayado y no se detiene. Si lees con pausas largas te irás a 36 o 37 minutos, así que ensaya con cronómetro.`,
   { after: 100 }
 ));
 kids.push(p(
@@ -165,15 +165,16 @@ kids.push(p(
   { after: 90 }
 ));
 [
-  "1. Diapositiva 16 (magnetón nuclear): quédate con los dos primeros párrafos. Ahorras ~25 s.",
+  "1. Diapositiva 29 (magnetón nuclear): quédate con los dos primeros párrafos. Ahorras ~25 s.",
   "2. Diapositiva 2 (hoja de ruta): resúmela en una frase. Ahorras ~20 s.",
-  "3. Diapositiva 15 (momento angular de spin): salta el ejemplo del calcio-43. Ahorras ~20 s.",
-  "4. Diapositiva 14 (estabilidad): abre un solo ejemplo de la curva en vez de tres. Ahorras ~20 s.",
-  "5. Diapositiva 21 (modelo de capas): salta el párrafo de Bartlett y el llenado de capas. Ahorras ~35 s.",
-  "6. Diapositivas 11, 12 y 23 (ejercicios): abre solo los pasos que indica la Nota de cada uno, no los siete. Ahorras ~60 s en total.",
+  "3. Diapositiva 28 (spin nuclear): salta el ejemplo del calcio-43. Ahorras ~20 s.",
+  "4. Diapositiva 25 (curva de estabilidad): abre un solo ejemplo en vez de tres. Ahorras ~20 s.",
+  "5. Diapositiva 40 (Bartlett y el llenado de capas): resúmela en una frase. Ahorras ~35 s.",
+  "6. Diapositivas 21, 22 y 43 (ejercicios): abre solo los pasos que indica la Nota de cada uno, no los siete. Ahorras ~60 s en total.",
+  "7. Diapositivas 13 y 36 (la figura 25-2 y la figura 26-7): se pueden resumir en una frase cada una. Ahorras ~45 s.",
 ].forEach((t) => kids.push(p(t, { after: 50, indent: { left: 220 } })));
 kids.push(p(
-  "Con esos seis recortes la exposición baja a unos 24 minutos. Lo que NO se recorta nunca: la diapositiva 9 (energía de amarre, de la que dependen los ejercicios), la 17 (las tres pruebas) y la 24 (el ejercicio 26-10, que es el cierre que amarra los dos capítulos). Y recuerda que todo lo que recortes del guion sigue estando escrito en la diapositiva: nadie va a notar que no lo dijiste.",
+  "Con esos recortes la exposición baja a unos 24 minutos. Lo que NO se recorta nunca: las diapositivas 17 y 18 (energía de amarre, de las que dependen los ejercicios), la 32 (las tres pruebas), la 42 (los dos modelos, que es la conclusión epistemológica) y la 44 (el ejercicio 26-10, que es el cierre que amarra los dos capítulos). Y recuerda que todo lo que recortes del guion sigue estando escrito en la diapositiva: nadie va a notar que no lo dijiste.",
   { before: 110, italics: true }
 ));
 

@@ -15,7 +15,7 @@ el de la gota líquida y el de capas.
 | **Fecha de exposición** | 29 de noviembre de 2026 |
 | **Curso** | Historia y Epistemología de la Física (21818) · 4 créditos |
 | **Programa** | Física · Facultad de Ciencias Básicas · Universidad del Atlántico |
-| **Duración** | 25 diapositivas · 30:00 min (versión corta: 24 min) |
+| **Duración** | 46 diapositivas · 30:00 min (versión corta: 24 min) |
 
 ## Ver la presentación
 
@@ -38,21 +38,22 @@ También se puede abrir directamente en oscuro añadiendo `?theme=dark` a la URL
 
 ## Contenido de las diapositivas
 
-| # | Diapositiva | Sección del libro |
+| # | Diapositivas | Sección del libro |
 |---|---|---|
 | 1–2 | Portada y hoja de ruta | — |
-| 3–4 | El átomo nuclear · núclidos, isótopos, isóbaros, isótonos | 25-1 |
-| 5–7 | Las fuerzas nucleares · Yukawa, el potencial nuclear, la barrera de Coulomb | 25-2 |
-| 8 | Déficit de masa, radio y densidad nuclear | 25-3 |
-| 9–10 | Energía de amarre y energía de separación | 25-4 |
-| 11–12 | **Ejercicios 25-9 y 25-10** | problemas, p. 285 |
-| 13–14 | Fotodesintegración y estabilidad nuclear | 26-1 |
-| 15–16 | Momento angular de spin y magnetón nuclear | 26-2 |
-| 17 | ¿Electrones en el núcleo? Las tres pruebas | 26-3 |
-| 18–20 | El modelo de la gota líquida y la fórmula de Weizsäcker | 26-4 |
-| 21–22 | El modelo de capas, los números mágicos y el spin nuclear | 26-5 |
-| 23–24 | **Ejercicios 26-9 y 26-10** | problemas, pp. 296-297 |
-| 25 | Síntesis y bibliografía | — |
+| 3–6 | El átomo nuclear · por qué no sirve la mecánica clásica · por qué hacen falta modelos · las dos escalas de energía | 25-1 |
+| 7–8 | Núclidos (A, Z y N) · isótopos, isóbaros e isótonos | 25-1 |
+| 9–13 | Las fuerzas nucleares · Yukawa y sus cuatro características · el potencial nuclear · la barrera de Coulomb · el pozo de Yukawa | 25-2 |
+| 14–16 | Déficit de masa · radio y volumen · densidad nuclear | 25-3 |
+| 17–20 | Energía de amarre · Ejemplo 25-2 · energía de separación · Ejemplo 25-3 | 25-4 |
+| 21–22 | **Ejercicios 25-9 y 25-10** | problemas, p. 285 |
+| 23–26 | Fotodesintegración del deuterón · medir una BE con luz · la curva de estabilidad · los 272 núclidos estables | 26-1 |
+| 27–30 | Momento angular de spin · el spin nuclear · el magnetón nuclear · la tabla 26-2 | 26-2 |
+| 31–32 | ¿Electrones en el núcleo? · las tres pruebas | 26-3 |
+| 33–38 | La gota líquida · Weizsäcker · los cinco términos · la figura 26-7 · la curva BE/A · aciertos y límites | 26-4 |
+| 39–42 | Números mágicos · Bartlett y el llenado de capas · el spin por capas · los dos modelos frente a frente | 26-5 |
+| 43–44 | **Ejercicios 26-9 y 26-10** | problemas, pp. 296-297 |
+| 45–46 | Síntesis y bibliografía | — |
 
 ## Ejercicios resueltos
 
@@ -68,21 +69,28 @@ resuelven los disponibles del noveno en adelante. Del capítulo 26 solo quedaban
 
 ## Diapositivas interactivas
 
-Doce de las veinticinco: **4** (constructor de núclidos), **6** (potencial nuclear con deslizador),
-**7** (barrera de Coulomb: clásico frente a efecto túnel), **11**, **12**, **23** y **24**
-(los cuatro ejercicios, paso a paso), **14** (curva de estabilidad N-Z), **17** (las tres pruebas),
-**19** (los cinco términos de Weizsäcker), **20** (curva BE/A con fusión y fisión) y
-**21** (números mágicos).
+Once de las cuarenta y seis: **7** (constructor de núclidos), **11** (potencial nuclear con
+deslizador), **12** (barrera de Coulomb: clásico frente a efecto túnel), **21**, **22**, **43**
+y **44** (los cuatro ejercicios, paso a paso), **25** (curva de estabilidad N-Z), **32** (las
+tres pruebas), **35** (los cinco términos de Weizsäcker) y **37** (curva BE/A con fusión y fisión).
+
+## Legibilidad
+
+La presentación está pensada para proyectarse: el cuerpo de texto no baja de 19 px sobre un
+lienzo de 1280 × 720 que se escala a la pantalla, y los números **A**, **Z** y **N** de cada
+núclido se componen con un elemento propio —naranja para A, azul para Z y turquesa para N— en
+lugar de los superíndices y subíndices Unicode, que a distancia resultan ilegibles.
 
 ## Contenido del repositorio
 
 | Archivo | Descripción |
 |---|---|
-| `index.html` | La presentación completa (25 diapositivas, HTML/CSS/JS sin dependencias) |
+| `index.html` | La presentación completa (46 diapositivas, HTML/CSS/JS sin dependencias) |
 | `img/` | Logos institucionales, retratos y diagramas de Wikimedia Commons |
 | `img/libro/` | Figuras y tablas recortadas del propio libro, para uso docente |
 | `img/CREDITOS.json` | Autoría y licencia de cada imagen de Wikimedia |
 | `Guion - El nucleo y sus modelos.docx` | Guion palabra por palabra, con plan de tiempos, preguntas probables y glosario |
+| `Guion - El nucleo y sus modelos.pdf` | El mismo guion en PDF, para imprimir |
 | `build/` | Generador del guion (Node + el paquete `docx`). No se publica |
 
 Los PDF escaneados del libro (`radiacion/`) no se versionan: son material con derechos de autor
