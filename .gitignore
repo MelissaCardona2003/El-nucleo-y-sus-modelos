@@ -1,0 +1,16 @@
+# dependencias y artefactos locales
+build/node_modules/
+node_modules/
+.vercel/
+
+# configuración local del editor
+.claude/
+
+# escaneos del libro de Acosta, Cowan y Graham: material con derechos de autor
+# y 80 MB. Son la fuente de la exposición, pero no se publican.
+radiacion/
+
+# temporales del sistema
+Thumbs.db
+desktop.ini
+~$*

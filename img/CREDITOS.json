@@ -1,0 +1,56 @@
+{
+  "yukawa": {
+    "titulo": "Hideki Yukawa 1951.jpg",
+    "autor": "Unknown (Asahi Shinbun)",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Hideki_Yukawa_1951.jpg"
+  },
+  "mayer": {
+    "titulo": "Maria Goeppert-Mayer.jpg",
+    "autor": "Nobel foundation",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Maria_Goeppert-Mayer.jpg"
+  },
+  "chadwick": {
+    "titulo": "James Chadwick.jpg",
+    "autor": "Los Alamos National Laboratory",
+    "licencia": "Attribution",
+    "pagina": "https://commons.wikimedia.org/wiki/File:James_Chadwick.jpg"
+  },
+  "weizsacker": {
+    "titulo": "Carl Friedrich von Weizsaecker.jpg",
+    "autor": "Ian Howard (of the original picture)",
+    "licencia": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Carl_Friedrich_von_Weizsaecker.jpg"
+  },
+  "tabla_nuclidos": {
+    "titulo": "Table of nuclides (mul).svg",
+    "autor": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Table_isotopes.svg\" class=\"mw-redirect\" title=\"File:Table isotopes.svg\">Table of nuclides fr.svg</a>: <a href=\"//commons.wikimedia.org/w/index.php?title=User:Napy1kenobi",
+    "licencia": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Table_of_nuclides_(mul).svg"
+  },
+  "capas": {
+    "titulo": "Shells.png",
+    "autor": "<a href=\"https://en.wikipedia.org/wiki/User:Bakken\" class=\"extiw\" title=\"en:User:Bakken\">Bakken</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Bakken\" class=\"extiw\" title=\"en:User talk:Bakken\">talk</a>)",
+    "licencia": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Shells.png"
+  },
+  "be_curve": {
+    "titulo": "Binding energy curve - common isotopes.svg",
+    "autor": "<a href=\"//commons.wikimedia.org/wiki/User:Fastfission~commonswiki\" title=\"User:Fastfission~commonswiki\">Fastfission</a>",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Binding_energy_curve_-_common_isotopes.svg"
+  },
+  "fision": {
+    "titulo": "Nuclear fission.svg",
+    "autor": "<p>Created by <a href=\"//commons.wikimedia.org/wiki/User:Fastfission~commonswiki\" title=\"User:Fastfission~commonswiki\">Fastfission</a> in Illustrator.\n</p>\n<div style=\"display:table;width:auto;vertical-align:middle;direc",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Nuclear_fission.svg"
+  },
+  "gota": {
+    "titulo": "Stdef2.png",
+    "autor": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hullernuc&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hullernuc (page does not exist)\">Hullernuc</a>",
+    "licencia": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Stdef2.png"
+  }
+}
